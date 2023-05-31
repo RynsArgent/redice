@@ -1,0 +1,74 @@
+{
+    "Abilities": {
+        "strike": {
+            "uid": "strike",
+            "name": "Strike",
+            "keys": "DAMAGE X",
+            "type": "ATTACK",
+            "usage": "MELEE",
+            "target_type": "UNIT",
+            "target_team": "ENEMY",
+            "target_location": "FRONTMOST"
+        },
+        "waddle": {
+            "uid": "waddle",
+            "name": "Waddle",
+            "keys": "",
+            "type": "SKILL",
+            "usage": "NONE",
+            "target_type": "NONE",
+            "target_team": "NONE",
+            "target_location": "NONE"
+        }
+    },
+    "Classes": {
+        "fighter": {
+            "uid": "fighter",
+            "index": 1,
+            "name": "Fighter",
+            "health": 6,
+            "init": 15,
+            "tier": 0,
+            "face_1": "strike_2",
+            "face_2": "strike_2",
+            "face_3": "strike_2",
+            "face_4": "strike_2",
+            "face_5": "strike_3",
+            "face_6": "strike_3"
+        },
+        "training_dummy": {
+            "uid": "training_dummy",
+            "index": 2,
+            "name": "Training Dummy",
+            "health": 5,
+            "init": 10,
+            "tier": 0,
+            "face_1": "waddle_1",
+            "face_2": "waddle_1",
+            "face_3": "waddle_1",
+            "face_4": "waddle_1",
+            "face_5": "waddle_1",
+            "face_6": "waddle_1"
+        }
+    },
+    "Faces": {
+        "waddle_1": {
+            "uid": "waddle_1",
+            "index": 1,
+            "ability_id": "waddle",
+            "base_x": 1
+        },
+        "strike_2": {
+            "uid": "strike_2",
+            "index": 2,
+            "ability_id": "strike",
+            "base_x": 2
+        },
+        "strike_3": {
+            "uid": "strike_3",
+            "index": 3,
+            "ability_id": "strike",
+            "base_x": 3
+        }
+    }
+}
