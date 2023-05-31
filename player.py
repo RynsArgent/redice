@@ -180,7 +180,7 @@ class NonPlayer(Player):
         return
 
 """
-Player Class doing simple, dumb and predictable AI behavior.
+Player Class which trains itself on the battles it runs on.
 """
 class LearningAgent(Player):
     def __init__(self, logger, game_data, battle_env, team, gamma, epsilon, rho):
